@@ -2,14 +2,14 @@
 
 ### Introduction
 
-You will train an agent to navigate (and collect bananas!) in a large, square world.  
+An agent is to be trained to navigate (and collect bananas!) in a large, square world.  
 
 ![collecting_bananas](https://user-images.githubusercontent.com/114461809/192487542-54f1cd3b-c62d-4f09-8355-028ef9ee8c95.gif)
 
 
-Reward for collecting a yellow banana=+1
-Reward for collecting a blue banana = -1  
-Goal: Collect as many yellow bananas as possible while avoiding blue bananas.  
+* Reward for collecting a yellow banana=+1
+* Reward for collecting a blue banana = -1  
+* Goal: Collect as many yellow bananas as possible while avoiding blue bananas.  
 
 The state space has 37 dimensions and contains the agent's velocity, along with ray-based perception of objects around agent's forward direction.  Given this information, the agent has to learn how to best select actions.  Four discrete actions are available, corresponding to:
 - **`0`** - move forward.
